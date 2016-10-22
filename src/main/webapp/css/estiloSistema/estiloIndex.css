@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+	background-color: white;
+}
+
+header {
+	padding: 10px;
+	background-color: #337ab7;
+	font-family: Arial;
+	font-size: 23px;
+	color: white;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	color: white;
+	background-color: #337ab7;
+}
+
+.nav {
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: #e2e2e2;
+}
+
+.menu {
+	background-color: white;
+}
