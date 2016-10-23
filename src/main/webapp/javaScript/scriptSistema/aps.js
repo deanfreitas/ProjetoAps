@@ -1,14 +1,6 @@
 $(document).ready(function() {
 //	$.material.init();
 
-	$(function() {
-		$(".btn-toggle").click(function(e) {
-			e.preventDefault();
-			el = $(this).data('element');
-			$(el).toggle();
-		});
-	});
-
 	function deixarDivsInvisiveis() {
 		$('#idHome').toggle();
 		$('#idPqEconomizar').toggle();
@@ -47,3 +39,14 @@ $(document).ready(function() {
 
 	deixarDivsInvisiveis();
 });
+
+ function slidetoggle() {
+      var slider = document.getElementById("nav-slide");
+      slider.style.height = window.innerHeight - 60 + "px";
+      if(slider.style.left == "0px") {
+        slider.style.left = "-250px";
+      }
+      else {
+        slider.style.left = "0px";
+      }
+    }

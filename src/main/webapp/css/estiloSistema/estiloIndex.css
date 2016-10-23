@@ -1,33 +1,44 @@
 @charset "UTF-8";
 
-body {
-	background-color: white;
-}
 
-header {
-	padding: 10px;
-	background-color: #337ab7;
-	font-family: Arial;
-	font-size: 23px;
-	color: white;
-	text-align: center;
+body{
+	background-image: url("../../imagens/backgroundapp.png");
 }
+#nav-btn {
 
-footer {
-	text-align: center;
-	padding: 10px;
-	color: white;
-	background-color: #337ab7;
-}
+      position: fixed;
+      border: #Bababa 1px solid;
+      border-radius: 2px;
+      padding: 5px 10px;
+      cursor: pointer;
+      background-color: white;
+      transition: all 0.4s linear;
+    }
+    #nav-btn:hover {
+      border: #0061f2 1px solid;
+    }
+    #nav-btn > div {
+      width: 20px;
+      height: 3px;
+      background: #bababa;
+      margin: 4px 0px;
+      transition: all 0.4s linear;
+    }
+    #nav-btn:hover div {
+      background: #0061f2;
+    }
+    #nav-slide {
+      position: fixed;
+      left: -250px;
+      top: 60px;
+      width: 250px;
+      height: 0px;
+      background: #ffffff;
+      transition: left 0.4s linear;
 
-.nav {
-	text-align: center;
-}
+    }
+    .jumbotron{
+    	padding: 20px;
+    	background-color: rgba(210,210,210,0.6);
 
-.jumbotron {
-	background-color: #e2e2e2;
-}
-
-.menu {
-	background-color: white;
-}
+    }
