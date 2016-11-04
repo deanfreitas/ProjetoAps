@@ -2,7 +2,8 @@
 
 
 body{
-	background-image: url("../../imagens/backgroundapp.png");
+	/*background-image: url("../../imagens/backgroundapp.png"); */
+	background-color: white;
 }
 #nav-btn {
 
@@ -37,8 +38,31 @@ body{
       transition: left 0.4s linear;
 
     }
-    .jumbotron{
-    	padding: 20px;
-    	background-color: rgba(210,210,210,0.6);
 
+    header{
+    	background-color: #7f9dff;
+    }
+
+    #title{
+    	background-color: #7f9dff;
+    }
+    .material-icons.md-48 { font-size: 48px; 
+    }
+
+
+    .p1{
+    	font-size: 40px;
+    	height: 43px;
+    }
+    #idHome{
+    	padding: 40px;
+    	font-family: Verdana;
+    	font-size: 20px;
+    	margin-top: 90px;
+    }
+    #idPqEconomizar{
+    	padding: 30px;
+    	font-family: Verdana;
+    	font-size: 16px;
+    	margin-top: 30px;
     }

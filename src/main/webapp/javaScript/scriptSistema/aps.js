@@ -41,7 +41,7 @@ $(document).ready(function() {
 	});
 
 	$(document).click(function(event) {
-		if (event.target.id != "nav-slide" && event.target.id != "nav-btn") {
+		if (event.target.id != "nav-slide" && event.target.id != "nav-btn" && event.target.id != "btnMenu") {
 			$('#nav-slide').css('left', -250);
 		}
 	});
