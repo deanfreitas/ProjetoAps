@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
+body {
+background-image: url("../../imagens/agua.png");
+background-repeat:no-repeat; 
+background-color: rgb(196,226,239);
 
-body{
-	/*background-image: url("../../imagens/backgroundapp.png"); */
-	background-color: white;
+
 }
+
 #nav-btn {
 
       position: fixed;
@@ -12,9 +15,11 @@ body{
       border-radius: 2px;
       padding: 5px 10px;
       cursor: pointer;
-      background-color: white;
+      background:rgba(255,255,255, 0.3);
       transition: all 0.4s linear;
+
     }
+
     #nav-btn:hover {
       border: #0061f2 1px solid;
     }
@@ -24,9 +29,10 @@ body{
       background: #bababa;
       margin: 4px 0px;
       transition: all 0.4s linear;
+
     }
     #nav-btn:hover div {
-      background: #0061f2;
+      background:rgba(255,255,255, 0.3);
     }
     #nav-slide {
       position: fixed;
@@ -34,19 +40,19 @@ body{
       top: 60px;
       width: 250px;
       height: 0px;
-      background: #ffffff;
       transition: left 0.4s linear;
-
+      top:90px;
+      background:rgba(206,217,255, 0.9);
+      font-color:black;
     }
 
-    header{
-    	background-color: #7f9dff;
+    header {
+    background-image: url("../../imagens/agua.png");
     }
 
-    #title{
-    	background-color: #7f9dff;
-    }
-    .material-icons.md-48 { font-size: 48px; 
+  
+    .material-icons.md-48 {
+     font-size: 48px; 
     }
 
 
@@ -56,13 +62,67 @@ body{
     }
     #idHome{
     	padding: 40px;
-    	font-family: Verdana;
-    	font-size: 20px;
-    	margin-top: 90px;
+    	margin-top: 40px;
+    	background:rgba(255,255,255, 0.7);
     }
     #idPqEconomizar{
     	padding: 30px;
-    	font-family: Verdana;
-    	font-size: 16px;
-    	margin-top: 30px;
+    	margin-top: 40px;
+    	background:rgba(255,255,255, 0.7);
+    }
+    #idComoEcon{
+    	padding: 30px;
+    	margin-top: 40px;
+    	background:rgba(255,255,255, 0.7);
+    	font-family: 'Chivo', sans-serif;
+    	font-size: 20px;
+    	font-weight: bold;
+    	text-align: center;
+    }
+
+     #idCalculeConsumo{
+    	padding: 30px;
+    	margin-top: 40px;
+    	background:rgba(255,255,255, 0.7);
+    }
+
+     #idCuriosidade{
+    	padding: 30px;
+    	margin-top: 40px;
+    	background:rgba(255,255,255, 0.7);
+    	font-family: 'Chivo', sans-serif;
+    	font-size: 20px;
+    	font-weight: bold;
+    	text-align: center;
+    }
+    #idVazamento {
+
+    	margin-top: 40px;
+    	background:rgba(255,255,255, 0.7);
+    	font-weight: bold;
+    	font-size: 18px;
+    	font-family: 'Chivo', sans-serif;
+    }
+
+    h3{
+    	font-family: 'Coiny', cursive;
+    	font-size: 60px;
+    	color:#462dff;
+    }
+    a {
+    	color:black;
+    	font-weight:bold;
+    	font-size: 18px;
+    }
+
+   
+    p {
+    	font-family: 'Chivo', sans-serif;
+    	font-size: 24px;
+    	font-weight: bold;
+    	text-align: center;
+    }
+    hr {
+    	color:blue;
+    	border: solid;
     }

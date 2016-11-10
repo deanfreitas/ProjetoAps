@@ -6,6 +6,9 @@ $(document).ready(function() {
 		$('#idPqEconomizar').toggle();
 		$('#idComoEcon').toggle();
 		$('#idCalculeConsumo').toggle();
+		$('#idCuriosidade').toggle();
+		$('#idVazamento').toggle();
+		
 	}
 
 	$('#btnHome').click(function() {
@@ -13,6 +16,8 @@ $(document).ready(function() {
 		$('#idPqEconomizar').hide();
 		$('#idComoEcon').hide();
 		$('#idCalculeConsumo').hide();
+		$('#idCuriosidade').hide();
+		$('#idVazamento').hide();
 		$('#nav-slide').css('left', -250);
 	});
 
@@ -21,6 +26,8 @@ $(document).ready(function() {
 		$('#idPqEconomizar').show();
 		$('#idComoEcon').hide();
 		$('#idCalculeConsumo').hide();
+		$('#idCuriosidade').hide();
+		$('#idVazamento').hide();
 		$('#nav-slide').css('left', -250);
 	});
 
@@ -29,6 +36,8 @@ $(document).ready(function() {
 		$('#idPqEconomizar').hide();
 		$('#idComoEcon').show();
 		$('#idCalculeConsumo').hide();
+		$('#idCuriosidade').hide();
+		$('#idVazamento').hide();
 		$('#nav-slide').css('left', -250);
 	});
 
@@ -37,8 +46,29 @@ $(document).ready(function() {
 		$('#idPqEconomizar').hide();
 		$('#idComoEcon').hide();
 		$('#idCalculeConsumo').show();
+		$('#idCuriosidade').hide();
+		$('#idVazamento').hide();
 		$('#nav-slide').css('left', -250);
 	});
+		$('#btnCuriosidade').click(function() {
+		$('#idHome').hide();
+		$('#idPqEconomizar').hide();
+		$('#idComoEcon').hide();
+		$('#idCalculeConsumo').hide();
+		$('#idCuriosidade').show();
+		$('#idVazamento').hide();
+		$('#nav-slide').css('left', -250);
+	});
+		$('#btnVazamentos').click(function() {
+		$('#idHome').hide();
+		$('#idPqEconomizar').hide();
+		$('#idComoEcon').hide();
+		$('#idCalculeConsumo').hide();
+		$('#idCuriosidade').hide();
+		$('#idVazamento').show();
+		$('#nav-slide').css('left', -250);
+	});
+
 
 	$(document).click(function(event) {
 		if (event.target.id != "nav-slide" && event.target.id != "nav-btn" && event.target.id != "btnMenu") {
