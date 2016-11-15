@@ -66,12 +66,12 @@ background-color: rgb(196,226,239);
     	background:rgba(255,255,255, 0.7);
     }
     #idPqEconomizar{
-    	padding: 30px;
+    	
     	margin-top: 40px;
     	background:rgba(255,255,255, 0.7);
     }
     #idComoEcon{
-    	padding: 30px;
+    	
     	margin-top: 40px;
     	background:rgba(255,255,255, 0.7);
     	font-family: 'Chivo', sans-serif;
@@ -81,13 +81,13 @@ background-color: rgb(196,226,239);
     }
 
      #idCalculeConsumo{
-    	padding: 30px;
+    	
     	margin-top: 40px;
     	background:rgba(255,255,255, 0.7);
     }
 
      #idCuriosidade{
-    	padding: 30px;
+    	
     	margin-top: 40px;
     	background:rgba(255,255,255, 0.7);
     	font-family: 'Chivo', sans-serif;
@@ -125,4 +125,11 @@ background-color: rgb(196,226,239);
     hr {
     	color:blue;
     	border: solid;
+    }
+
+    label {
+
+    	font-weight: bold;
+    	font-size: 18px;
+    	font-family: 'Chivo', sans-serif;
     }
