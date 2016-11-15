@@ -1,6 +1,14 @@
 $(document).ready(function() {
 	// $.material.init();
 
+	var maquinaLavar = $('#maquinaLavar');
+	var tanque = $('#tanque');
+	var descarga = $('#descarga');
+	var piaBanheiro = $('#piaBanheiro');
+	var chuveiro = $('#chuveiro');
+	var piaCozinha = $('#piaCozinha');
+	var lavaLouca = $('#lavaLoucas');
+	
 	function deixarDivsInvisiveis() {
 		$('#idHome').toggle();
 		$('#idPqEconomizar').toggle();
@@ -8,7 +16,6 @@ $(document).ready(function() {
 		$('#idCalculeConsumo').toggle();
 		$('#idCuriosidade').toggle();
 		$('#idVazamento').toggle();
-		
 	}
 
 	$('#btnHome').click(function() {
@@ -84,6 +91,54 @@ $(document).ready(function() {
 		} else {
 			slider.style.left = "0px";
 		}
+	});
+	
+	$('#calcular').click(function() {
+		var soma = 0;
+		
+		if(maquinaLavar.val() != null) {
+			soma += maquinaLavar.val() * 19;
+		}
+		
+		if(tanque.val() != null) {
+			soma += tanque.val() * 15;
+		}
+		
+		if(descarga.val() != null) {
+			soma += descarga.val() * 6;
+		}
+		
+		if(piaBanheiro.val() != null) {
+			soma += piaBanheiro.val() * 15;
+		}
+		
+		if(chuveiro.val() != null) {
+			soma += chuveiro.val() * 12;
+		}
+		
+		if(piaCozinha.val() != null) {
+			soma += piaCozinha.val() * 15;
+		}
+		
+		if(lavaLouca.val() != null) {
+			soma += lavaLouca.val() * 2;
+		}
+		
+		/**
+		 *  resultado da soma esta aperecendo em um alert
+		 */
+		
+		alert(soma);
+	});
+	
+	$('#limpar').click(function() {
+		maquinaLavar.val('');
+		tanque.val('');
+		descarga.val('');
+		piaBanheiro.val('');
+		chuveiro.val('');
+		piaCozinha.val('');
+		lavaLouca.val('');
 	});
 
 	deixarDivsInvisiveis();
